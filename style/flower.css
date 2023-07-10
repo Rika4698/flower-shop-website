@@ -1,10 +1,11 @@
 /* common shared style */
 body {
     font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
+
 /* header style */
-.header-set{
+.header-set {
     background-color: rgba(229, 84, 115, 0.10);
     margin: 0;
 }
@@ -13,37 +14,111 @@ body {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    margin-top: 197px;
+    margin-top: 200px;
     margin-bottom: 32px;
     margin-right: 97px;
-}
-.header{
-    display:flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    padding:0px 240px 0 240px;
+
 }
 
-.descrip-primary {
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 240px 0 240px;
+}
+
+.descrip {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
+
     /* margin-right: 171px; */
 
 }
-.btn-primary{
+
+.btn-header {
     border-radius: 8px;
-background: #E55473;
-border:0;
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-padding:20px 44px;
-margin-bottom: 147px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 44px;
+    margin-bottom: 147px;
+
 }
-.profile-pic{
+
+.profile-pic {
     width: 635px;
     margin-top: 50px;
-    
+
+}
+
+/* main section style */
+.text-primary {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 230px;
+    margin-bottom: 24px;
+    /* margin-right: 190px; */
+}
+
+.main-header {
+    width: 594px;
+height: 132px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 429px 0 423px;
+
+}
+
+.descrip-primary {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    margin-right: 186px;
+
+}
+
+.pic {
+    width: 318px;
+    /* height: 420px; */
+    margin: 100px 0;
+}
+
+.btn-main {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 43px;
+    margin-left: 190px;
+    margin-bottom: 162px;
+}
+
+.clr-change {
+    color: #E55473;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
