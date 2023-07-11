@@ -55,6 +55,33 @@ body {
 
 }
 
+
+/* section-head style */
+
+section-head>h2{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(172, 13, 150);
+    margin-top: 200px;
+    
+}
+
+section-head>p{
+
+   text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(190, 101, 101);
+    margin-bottom: 300px;
+}
+
+
+
+
+
+
+
 /* section style */
 .icon {
     width: 310px;
@@ -331,7 +358,29 @@ height: 620px; */
 
 
 }
-
+/* section-5 style */
+.social-links{
+    margin-right: 25px;
+    text-align: center;
+    color: aquamarine;
+    /* padding: 24px; */
+    /* width: 24px; */
+}
+.sec-info{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(84, 84, 235);
+    text-align: center;
+    
+}
+.info-details{
+    background-color: rgb(110, 240, 212);
+    padding: 20px;
+}
+a{
+    width: 24px;
+    
+}
 
 
 
@@ -378,7 +427,8 @@ height: 620px; */
 
 footer {
     background-color: #111010;
-    width: 1922px;
+    /* background-size: auto; */
+    width: 2010px;
     height: 449px;
     text-align: center;
     padding-top: 128px;
